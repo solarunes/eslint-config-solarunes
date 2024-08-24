@@ -24,7 +24,7 @@ export default [
 			"array-bracket-newline": [
 				"error", {
 					multiline: true,
-					minItems: 4,
+					minItems: 5,
 				}
 			],
 
