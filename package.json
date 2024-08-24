@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-solarunes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "ESLint rules for Solarunes' JavaScript projects.",
     "main": "eslint.config.js",
     "type": "module",
