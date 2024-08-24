@@ -5,7 +5,7 @@
     "main": "eslint.config.js",
     "type": "module",
     "scripts": {
-        "test": "eslint --debug -c eslint.config.js tests/* && echo \"Exit code: $?\"",
+        "test": "eslint -c eslint.config.js tests/* && echo \"Exit code: $?\"",
         "preversion": "npm run test"
     },
     "repository": {
