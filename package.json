@@ -1,0 +1,41 @@
+{
+    "name": "eslint-config-solarunes",
+    "version": "1.0.0",
+    "description": "ESLint rules for Solarunes' JavaScript projects.",
+    "main": "eslint.config.js",
+    "type": "module",
+    "scripts": {
+        "test": "eslint --debug -c eslint.config.js tests/* && echo \"Exit code: $?\"",
+        "preversion": "npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/solarunes/eslint-config-solarunes.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslint-config",
+        "solarunes"
+    ],
+    "author": {
+        "name": "solarunes",
+        "email": "solarunes@protonmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/solarunes/eslint-config-solarunes/issues"
+    },
+    "homepage": "https://github.com/solarunes/eslint-config-solarunes#readme",
+    "peerDependencies": {
+        "eslint": ">= 9"
+    },
+    "dependencies": {
+        "@babel/core": "^7.25.2",
+        "@babel/eslint-parser": "^7.25.1",
+        "@babel/preset-env": "^7.25.4",
+        "globals": "^15.9.0"
+    },
+    "devDependencies": {
+        "eslint": "^9.9.1"
+    }
+}
